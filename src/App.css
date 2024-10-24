@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-justify{
+  text-align: justify;
+}
+.hero_sec{
+    width: 100%;
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+}
+.contact-form form{
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+form label{
+  font-weight: 600;
+}
+.cus_cont{
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-container button{
+  width: 30%;
+  background: #ccc;
+  border: 1px solid #000;
+  margin: 10px 4px;
+}
+.todo-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.member-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.4s;
+}
+.member {
+  position: relative;
+  overflow: hidden;
+}
+.member-info-content {
+  position: absolute;
+  bottom: -55px;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  transition: bottom 0.4s;
+}
+.socials {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  background: #4a1414;
+  background: rgba(78, 64, 57, 0.6);
+  transition: left ease-in-out 0.3s;
+}
+.socials a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.member:hover .member-info-content{
+  bottom: 0;
+  transition: bottom 0.4s;
+}
+.member:hover .socials{
+  left: 0;
+  transition: left ease-in-out 0.3s;
+}
+.member:hover .member-info{
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.prod_cat {
+  background-color: #ccc;
+  padding: 20px;
+}
+.prod_cat ul{
+  padding: 0;
+  list-style: none;
+}
+.prod_cat ul li{
+  margin-bottom: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.all_prodts{
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.all_prodts img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.form-sec{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e8ef;
+  background: url('./images/bg-form.jpg') center center/cover no-repeat ;
+}
+.form-sec form{
+  background: #fff;
+  padding: 20px;
+  max-width: 606px;
+  margin: auto;
+  border-radius: 20px;
+}
+.add-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px;
+  border-radius: 13px;
+}
+.each-items {
+  background: #b93c3c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 12px;
+}
+
+
+.client-test_sec{
+   background-color: #FAFAFA;
+   position: relative;
+   z-index: 1;
+
+}
+.client-test_sec .overlay{
+  background-image: url('../src/images/client-bg.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.05;
+
+}
+.overlay {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.clent-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 23px;
+  position: relative;
+  margin: 26px;
+}
+.client-img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  left: -38px;
+  top: -38px;
+  overflow: hidden;
+}
+.client-icons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+review: "1: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinarac dapibus leo. Cras cursus facere, numquam ultrica orci optio! Fames, ab alias. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinarac dapibus leo."
